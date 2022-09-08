@@ -12,7 +12,7 @@ PRs are welcome.
 To use this wrapper in your PIO project, first add the following lines into your `platformio.ini`.
 ```ini
 lib_deps =
-  https://github.com/likeablob/ulptool-pio
+  https://github.com/flockman66/ulptool-pio
 
 extra_scripts =
   pre:/$PROJECT_LIBDEPS_DIR/$PIOENV/ulptool-pio/pre_extra_script_ulptool.py
